@@ -1,6 +1,6 @@
 # Python Project - BIOL668
 ## Description
-This is a completed Python and Biopython project for the BIOL 668 course taught by DSK at San Diego State. Through these exercises, students become familar with object-oriented proramming and gain experience with Biopython.
+This is a completed Python and Biopython project for the BIOL 668 course taught by Dr. Scott Kelley at San Diego State. Through these exercises, students become familar with object-oriented proramming and gain experience with Biopython.
 - Required data and files:
   - KRAS.fasta
   - Kras_genbank.gb
@@ -55,8 +55,18 @@ Recall that proper functioning of the ``doctest()`` requires docstrings per func
 
 Download the necessary files, as included in this repository. This is all files besides the OOPTestProject2025.pdf.
 
-You will follow the tutorial in the Jupytr Notebook, 04A_Biopython_Tutorial_LSH-1.ipny, learning how to use parts of the Biopython toolset.
+You will follow the tutorial in the Jupytr Notebook, 04A_Biopython_Tutorial_LSH-1.ipny, designed by Dr. Laura Sisk-Hackworth, learning how to use parts of the Biopython toolset. Really, it demonstrates how modules from Biopython facilitate the process of using different functions related to DNA, without having to generate them yourself. 
 
+You can open this notebook by accessing Jupytr Notebook online, at Project Jupytr (https://jupyter.org/try).
 
+The tutorial frequently refers to the Biopython Tutorial and Cookbook page (https://biopython.org/wiki/Seq).
 
+The variabilty with using Biopython introduces seq feature objects. Additionally, annotations and the methods of extracting them, are provided.
 
+Significantly, the tutorial demonstrates how the ``Phylo`` module can be used to generate phylogenies, and further drawn out with ``ascii``.
+
+```
+Phylo.draw_ascii(tree)
+```
+
+Those who engage until the end of the tutorial will unveil methods to further analyze constructed phylogenetic trees.
