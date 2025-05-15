@@ -8,7 +8,7 @@ This is a completed Python and Biopython project for the BIOL 668 course taught 
   - SeqRecord.py
   - 04A_Biopython_Tutorial_LSH-1.ipny
   - OOPTestProject2025.pdf
-  - 
+    
 
 ## Instructions (OOP Project)
 Download the necessary files, as included in this repository.
